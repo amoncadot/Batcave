@@ -54,8 +54,8 @@ New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders
 New-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\SSL 2.0\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null
 Write-Host 'SSL 2.0 has been disabled.'
  
-# NOTE: If you disable SSL 3.0 the you may lock out some people still using
-# Windows XP with IE6/7. Without SSL 3.0 enabled, there is no protocol available
+# NOTE: If you disable SSL 3.0 the you may lock out some people still using Windows XP
+# with IE6/7. Without SSL 3.0 enabled, there is no protocol available
 # for these people to fall back. Safer shopping certifications may require that
 # you disable SSLv3.
 #
