@@ -40,8 +40,6 @@ For ($loading = 1; $loading -le 100; $loading++)
 }
 }
 
-Start-WeatherCheck 
-
 
 ######## RAN OUT OF TIME TO BUILD END PIECE OF SCRIPT WHICH ASKS IF THE USER WANTS TO CHECK ANOTHER CITY'S WEATHER #########
 
