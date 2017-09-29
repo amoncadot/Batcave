@@ -40,7 +40,6 @@ For ($loading = 1; $loading -le 100; $loading++)
 }
 }
 
-
 ######## RAN OUT OF TIME TO BUILD END PIECE OF SCRIPT WHICH ASKS IF THE USER WANTS TO CHECK ANOTHER CITY'S WEATHER #########
 
 #region Ask the user if they want to check another city for weather
