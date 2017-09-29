@@ -27,4 +27,4 @@ If ($ADPorts) {
      }
      }
 
-Test-ADPorts onepulsant -ADPorts
+Test-ADPorts <# Remote hostname/IP goes here i.e. [Server1] or [192.168.5.10] #> -ADPorts
